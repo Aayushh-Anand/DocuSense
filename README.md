@@ -16,7 +16,6 @@ The application combines a React frontend, FastAPI backend, local text embedding
 - [System Architecture](#system-architecture)
 - [Project Structure](#project-structure)
 - [Learning Outcomes](#learning-outcomes)
-- [License](#license)
 - [Project Summary](#project-summary)
 
 ---
@@ -141,12 +140,6 @@ Building DocuSense provides practical experience with:
 - Prompt engineering and evidence-grounded answering.
 - Extractive summarization and key-point extraction.
 - Error handling, performance measurement, and UI integration.
-
----
-
-## License
-
-Choose and add an appropriate open-source license before publishing the repository publicly. Ensure that the licenses of all dependencies and model weights are compatible with your intended distribution.
 
 ---
 
