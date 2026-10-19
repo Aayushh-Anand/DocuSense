@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+**/node_modules/
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend build output
+dist/
+dist-ssr/
+
+# Uploaded documents and generated vector indexes
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/vector_stores/*
+!backend/vector_stores/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local model and cache files
+.cache/
