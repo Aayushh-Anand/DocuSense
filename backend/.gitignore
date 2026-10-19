@@ -1,0 +1,25 @@
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Uploaded PDFs
+uploads/*
+!uploads/.gitkeep
+
+# Generated vector indexes
+vector_stores/*
+!vector_stores/.gitkeep
+
+# Logs
+*.log
